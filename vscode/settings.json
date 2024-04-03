@@ -1,0 +1,119 @@
+{
+  // Appearance
+  "workbench.colorTheme": "GitHub Dark Default",
+  "editor.fontFamily": "'JetBrains Mono', 'Courier New', monospace",
+  "editor.fontWeight": "normal",
+  "editor.fontSize": 14.5,
+  "editor.letterSpacing": -0.4,
+  "editor.lineHeight": 24,
+  "editor.tabSize": 2,
+  "editor.cursorStyle": "line-thin",
+  "editor.cursorBlinking": "phase",
+  "editor.cursorSmoothCaretAnimation": "on",
+  "editor.smoothScrolling": true,
+  "workbench.list.smoothScrolling": true,
+  "terminal.integrated.smoothScrolling": true,
+  "editor.wordWrap": "on",
+  "editor.tokenColorCustomizations": {
+    "[GitHub Dark Default]": {
+      "textMateRules": [
+        {
+          "scope": [
+            "support.class.component",
+            "entity.name.tag.template.html.vue"
+          ],
+          "settings": {
+            "foreground": "#26bda4"
+          }
+        },
+        {
+          "scope": ["entity.name.tag"],
+          "settings": {
+            "foreground": "#7177c0"
+          }
+        },
+        {
+          "scope": [
+            "punctuation.definition.tag.begin.html",
+            "punctuation.definition.tag.end.html"
+          ],
+          "settings": {
+            "foreground": "#315fa5",
+            "fontStyle": "bold"
+          }
+        }
+      ]
+    }
+  },
+
+  // Formatting
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.formatOnPaste": true,
+  "editor.formatOnSave": true,
+
+  // Extension associations
+  "files.associations": {
+    "*.css, *.vue": "tailwindcss"
+  },
+
+  // Editor associations
+  "workbench.editorAssociations": {
+    "*.ico": "imagePreview.previewEditor",
+    "{git,gitlens}:/**/*.{md,csv}": "default"
+  },
+
+  // Suggestions
+  "editor.inlineSuggest.enabled": true,
+  "editor.quickSuggestions": {
+    "comments": "on",
+    "strings": "on"
+  },
+
+  // Terminal
+  "terminal.integrated.defaultProfile.windows": "Git Bash",
+
+  // Autosave
+  "files.autoSave": "afterDelay",
+
+  // Git
+  "git.autofetch": true,
+  "git.enableSmartCommit": true,
+  "git.confirmSync": false,
+
+  // Native explorer confirmations
+  "explorer.confirmDragAndDrop": false,
+  "explorer.confirmDelete": false,
+  "explorer.confirmPasteNative": false,
+
+  // State on startup
+  "workbench.startupEditor": "none",
+  "update.showReleaseNotes": false,
+
+  // Workspace Trust
+  "security.workspace.trust.enabled": false,
+
+  // Editor features for all languages
+  "editor.linkedEditing": true,
+
+  // JavaScript language features
+  "javascript.updateImportsOnFileMove.enabled": "always",
+
+  // Vue - Official [Vue.volar]
+  "vue.updateImportsOnFileMove.enabled": true,
+
+  // Discord Presence [icrawl.discord-vscode]
+  "discord.idleTimeout": 600,
+  "discord.largeImage": "Editing a {lang} file",
+
+  // Github Copilot [GitHub.copilot]
+  "github.copilot.enable": {
+    "*": true,
+    "plaintext": true,
+    "markdown": true,
+    "scminput": true
+  },
+
+  // Office Viewer(Markdown Editor) [cweijan.vscode-office]
+  "vscode-office.openOutline": false,
+  "vscode-office.editorTheme": "Github Dark"
+}

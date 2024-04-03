@@ -1,0 +1,17 @@
+{
+  "QuerySelector": {
+    "prefix": "qs, qes, q, qq",
+    "body": ["document.querySelector('$1');"],
+    "description": "QuerySelector"
+  },
+  "QuerySelectorAll": {
+    "prefix": "qsa, qesa, qa, qqa",
+    "body": ["document.querySelectorAll('$1');"],
+    "description": "QuerySelectorAll"
+  },
+  "AddEventListener": {
+    "prefix": "ael, aele, a",
+    "body": ["document.addEventListener('$1', $2);"],
+    "description": "AddEventListener"
+  }
+}
