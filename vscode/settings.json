@@ -51,6 +51,11 @@
   "editor.formatOnPaste": true,
   "editor.formatOnSave": true,
 
+  // Highlight rules
+  "editor.unicodeHighlight.allowedLocales": {
+    "ru": true
+  },
+
   // Extension associations
   "files.associations": {
     "*.css, *.vue": "tailwindcss"
@@ -59,10 +64,12 @@
   // Editor associations
   "workbench.editorAssociations": {
     "*.ico": "imagePreview.previewEditor",
-    "{git,gitlens}:/**/*.{md,csv}": "default"
+    "{git,gitlens}:/**/*.{md,csv}": "default",
+    "*.svg": "default"
   },
 
   // Suggestions
+  "editor.tabCompletion": "on",
   "editor.inlineSuggest.enabled": true,
   "editor.quickSuggestions": {
     "comments": "on",
@@ -98,8 +105,13 @@
   // JavaScript language features
   "javascript.updateImportsOnFileMove.enabled": "always",
 
+  // TypeScript language features
+  "typescript.updateImportsOnFileMove.enabled": "always",
+
   // Vue - Official [Vue.volar]
   "vue.updateImportsOnFileMove.enabled": true,
+  "vue.autoInsert.dotValue": true,
+  "vue.inlayHints.missingProps": true,
 
   // Discord Presence [icrawl.discord-vscode]
   "discord.idleTimeout": 600,
