@@ -1,19 +1,17 @@
 {
   // Appearance
   "workbench.colorTheme": "GitHub Dark Default",
+  "workbench.iconTheme": "material-icon-theme",
   "editor.fontFamily": "'JetBrains Mono', 'Courier New', monospace",
   "editor.fontWeight": "normal",
   "editor.fontSize": 14.5,
   "editor.letterSpacing": -0.4,
-  "editor.lineHeight": 24,
-  "editor.tabSize": 2,
   "editor.cursorStyle": "line-thin",
   "editor.cursorBlinking": "phase",
   "editor.cursorSmoothCaretAnimation": "on",
   "editor.smoothScrolling": true,
   "workbench.list.smoothScrolling": true,
   "terminal.integrated.smoothScrolling": true,
-  "editor.wordWrap": "on",
   "editor.tokenColorCustomizations": {
     "[GitHub Dark Default]": {
       "textMateRules": [
@@ -47,6 +45,9 @@
   },
 
   // Formatting
+  "editor.lineHeight": 24,
+  "editor.tabSize": 2,
+  "editor.wordWrap": "wordWrapColumn",
   "editor.defaultFormatter": "esbenp.prettier-vscode",
   "editor.formatOnPaste": true,
   "editor.formatOnSave": true,
@@ -65,7 +66,8 @@
   "workbench.editorAssociations": {
     "*.ico": "imagePreview.previewEditor",
     "{git,gitlens}:/**/*.{md,csv}": "default",
-    "*.svg": "default"
+    "*.svg": "default",
+    "{git,gitlens}:/**/*.{md,csv,svg}": "default"
   },
 
   // Suggestions
@@ -124,8 +126,12 @@
     "markdown": true,
     "scminput": true
   },
+  "github.copilot.editor.enableAutoCompletions": true,
 
   // Office Viewer(Markdown Editor) [cweijan.vscode-office]
   "vscode-office.openOutline": false,
-  "vscode-office.editorTheme": "Github Dark"
+  "vscode-office.editorTheme": "Github Dark",
+
+  // GitLens [eamodio.gitlens]
+  "gitlens.currentLine.scrollable": false
 }

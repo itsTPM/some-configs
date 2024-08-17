@@ -1,9 +1,9 @@
 alfredbirk.tailwind-documentation
+antfu.unocss
+biomejs.biome
 bradlc.vscode-tailwindcss
 christian-kohler.npm-intellisense
 cipchk.cssrem
-cmstead.js-codeformer
-cmstead.jsrefactor
 csstools.postcss
 cweijan.vscode-office
 eamodio.gitlens
@@ -19,10 +19,11 @@ kisstkondoros.vscode-gutter-preview
 mikestead.dotenv
 ms-vscode-remote.remote-ssh
 ms-vscode-remote.remote-ssh-edit
-ms-vscode-remote.remote-wsl
 ms-vscode.remote-explorer
 ms-vscode.vscode-speech
 naumovs.color-highlight
+nuxtr.nuxtr-vscode
+pkief.material-icon-theme
 pranaygp.vscode-css-peek
 sdras.vue-vscode-snippets
 selemondev.shadcn-vue
@@ -30,5 +31,6 @@ syler.sass-indented
 vitest.explorer
 vue.volar
 webhint.vscode-webhint
+william-voyek.vscode-nginx
 xabikos.javascriptsnippets
 zignd.html-css-class-completion
