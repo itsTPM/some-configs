@@ -1,7 +1,0 @@
-{
-  "<script scoped>": {
-    "prefix": "ss, ssc, scoped, scop, sscoped",
-    "body": ["<script scoped>\n$1\n</script>"],
-    "description": "QuerySelector"
-  }
-}

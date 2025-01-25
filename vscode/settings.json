@@ -47,7 +47,7 @@
   // Formatting
   "editor.lineHeight": 24,
   "editor.tabSize": 2,
-  "editor.wordWrap": "wordWrapColumn",
+  "editor.wordWrap": "on",
   "editor.defaultFormatter": "esbenp.prettier-vscode",
   "editor.formatOnPaste": true,
   "editor.formatOnSave": true,
@@ -69,6 +69,9 @@
     "*.svg": "default",
     "{git,gitlens}:/**/*.{md,csv,svg}": "default"
   },
+
+  // Editor accessibility
+  "editor.accessibilitySupport": "off",
 
   // Suggestions
   "editor.tabCompletion": "on",
@@ -127,10 +130,6 @@
     "scminput": true
   },
   "github.copilot.editor.enableAutoCompletions": true,
-
-  // Office Viewer(Markdown Editor) [cweijan.vscode-office]
-  "vscode-office.openOutline": false,
-  "vscode-office.editorTheme": "Github Dark",
 
   // GitLens [eamodio.gitlens]
   "gitlens.currentLine.scrollable": false
