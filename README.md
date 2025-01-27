@@ -8,6 +8,7 @@ Repo that contains configs for my development tools (vscode, prettier, etc)
 
 - [Prettier](#prettier)
 - [VS Code](#vs-code)
+- [Chrome](#chrome)
 
 ---
 
@@ -27,3 +28,9 @@ _Get extensions list: `code --list-extensions`_
 | **[settings.json](./vscode/settings.json)**                       | Settings                |
 | **[extensions.list](./vscode/extensions.list)**                   | Extensions list         |
 | **[snippets/javascript.json](./vscode/snippets/javascript.json)** | Snippets for JavaScript |
+
+### Chrome
+
+| File name                                   | Description                                            |
+| ------------------------------------------- | ------------------------------------------------------ |
+| **[bonjourr.json](./chrome/bonjourr.json)** | [Bonjourr](https://github.com/victrme/Bonjourr) config |

@@ -1,0 +1,191 @@
+{
+  "about": {
+    "browser": "chrome",
+    "version": "20.4.2"
+  },
+  "showall": true,
+  "lang": "en",
+  "dark": "system",
+  "favicon": "",
+  "tabtitle": "",
+  "greeting": "",
+  "pagegap": 0,
+  "pagewidth": 2200,
+  "time": true,
+  "main": false,
+  "dateformat": "auto",
+  "background_blur": 0,
+  "background_bright": 0.62,
+  "background_type": "unsplash",
+  "quicklinks": true,
+  "textShadow": 0.275,
+  "announcements": "all",
+  "review": -1,
+  "css": "li.link div {\nbox-shadow: none;\nfilter: drop-shadow(1px 1px 25px rgba(0,0,0,0.75));\ntransition: .33s ease;\n}\n\nli.link:hover div {\nbox-shadow: none;\nfilter: drop-shadow(1px 1px 5px rgba(0,0,0,0.75))\n}",
+  "hide": {
+    "greetings": false,
+    "settingsicon": false
+  },
+  "linkstyle": "large",
+  "linktitles": true,
+  "linkbackgrounds": false,
+  "linknewtab": false,
+  "linksrow": "16",
+  "linkspbjrbg": {
+    "_id": "linkspbjrbg",
+    "order": 2,
+    "parent": "default",
+    "title": "Reddit",
+    "url": "https://reddit.com"
+  },
+  "linksllbcim": {
+    "_id": "linksllbcim",
+    "order": 5,
+    "parent": "default",
+    "title": "Habr",
+    "url": "https://habr.com"
+  },
+  "linksleeifo": {
+    "_id": "linksleeifo",
+    "order": 7,
+    "parent": "default",
+    "title": "Last.fm",
+    "url": "https://last.fm"
+  },
+  "linkskjcccc": {
+    "_id": "linkskjcccc",
+    "order": 0,
+    "parent": "default",
+    "title": "YouTube",
+    "url": "https://youtube.com"
+  },
+  "linkskajlko": {
+    "_id": "linkskajlko",
+    "order": 4,
+    "parent": "default",
+    "title": "GitHub",
+    "url": "https://github.com"
+  },
+  "linksjjihqm": {
+    "_id": "linksjjihqm",
+    "icon": "http://192.168.1.1//assets/images/favicon/apple-touch-icon.png",
+    "order": 6,
+    "parent": "default",
+    "title": "Keenetic",
+    "url": "http://192.168.1.1"
+  },
+  "linksfepoog": {
+    "_id": "linksfepoog",
+    "icon": "https://assets-webflow.ngcdn.ru/5f05d1ca2460d29c99fb1d3f/631a01335fba287542acd64e_foxford-symbol-logo-black-new.svg",
+    "order": 3,
+    "parent": "default",
+    "title": "Foxford",
+    "url": "https://foxford.ru"
+  },
+  "linksejmlnn": {
+    "_id": "linksejmlnn",
+    "icon": "https://api.bonjourr.fr/favicon/blob/https://twitch.tv",
+    "order": 1,
+    "parent": "default",
+    "title": "Twitch",
+    "url": "https://twitch.tv"
+  },
+  "linkgroups": {
+    "groups": ["default"],
+    "on": false,
+    "pinned": [],
+    "selected": "default",
+    "synced": []
+  },
+  "clock": {
+    "ampm": false,
+    "analog": false,
+    "seconds": false,
+    "size": 1.25,
+    "timezone": "auto",
+    "worldclocks": false
+  },
+  "analogstyle": {
+    "background": "#fff2",
+    "border": "#ffff",
+    "face": "none",
+    "hands": "modern",
+    "shape": "round"
+  },
+  "worldclocks": [],
+  "unsplash": {
+    "collection": "i63pLRhuUTg",
+    "every": "hour",
+    "lastCollec": "user",
+    "time": 1738016386520
+  },
+  "weather": {
+    "ccode": "NL",
+    "city": "amsterdam-binnenstad",
+    "forecast": "auto",
+    "geolocation": "approximate",
+    "moreinfo": "none",
+    "provider": "",
+    "temperature": "actual",
+    "unit": "metric"
+  },
+  "notes": {
+    "on": false,
+    "align": "left",
+    "opacity": 0.1,
+    "width": 40
+  },
+  "searchbar": {
+    "on": false,
+    "opacity": 0.1,
+    "engine": "google",
+    "newtab": false,
+    "placeholder": "",
+    "request": "",
+    "suggestions": true
+  },
+  "quotes": {
+    "on": false,
+    "author": false,
+    "frequency": "day",
+    "last": 1738011750204,
+    "type": "hitokoto"
+  },
+  "font": {
+    "size": "17.45",
+    "family": "",
+    "system": true,
+    "weight": "300",
+    "weightlist": []
+  },
+  "supporters": {
+    "closed": true,
+    "enabled": true,
+    "month": 1
+  },
+  "move": {
+    "layouts": {
+      "double": {
+        "grid": [
+          ["time", "."],
+          ["main", "."],
+          ["quicklinks", "."]
+        ],
+        "items": {}
+      },
+      "single": {
+        "grid": [["time"], ["quicklinks"]],
+        "items": {}
+      },
+      "triple": {
+        "grid": [
+          [".", "time", "."],
+          [".", "main", "."],
+          [".", "quicklinks", "."]
+        ],
+        "items": {}
+      }
+    },
+    "selection": "single"
+  }
+}
